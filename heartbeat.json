@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-12-19T11:43:29.263143",
+  "webhook_server": {
+    "online": false,
+    "health": null,
+    "pipeline_status": null,
+    "error": "HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /health (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  "system": {
+    "uptime_seconds": 1400.55,
+    "cpu_percent": 0.0,
+    "memory_percent": 23.3,
+    "disk_percent": 19.5,
+    "disk_free_gb": 44.89051818847656,
+    "timestamp": "2025-12-19T11:43:29.267654"
+  },
+  "activity": {
+    "last_report": {
+      "filename": "report_20251219_164107.html",
+      "timestamp": "2025-12-19T11:41:07.584161"
+    },
+    "last_pipeline_run": null,
+    "total_reports": 22
+  },
+  "recent_log": [
+    "2025-12-17 01:46:07,390 - services.wifi_service - INFO - Ensuring connection to Flock WiFi network...",
+    "2025-12-17 01:46:07,434 - services.wifi_network_manager - INFO - Saving original network for restoration: flock \u2013 WaterTemp",
+    "2025-12-17 01:46:10,529 - root - INFO - \u2713 PASS: WiFi Network Connection",
+    "2025-12-17 01:46:10,529 - root - INFO - \u2713 PASS: HTTP Connectivity",
+    "2025-12-17 01:46:10,529 - root - INFO - \u2713 PASS: Settings Navigation",
+    "2025-12-17 01:46:10,530 - root - INFO - \u2713 PASS: Status Endpoint",
+    "2025-12-17 01:46:10,530 - root - INFO - \u2713 PASS: Info Endpoint",
+    "2025-12-17 01:46:10,530 - root - INFO - \u2713 PASS: Mode Switching",
+    "2025-12-17 01:46:10,530 - root - INFO - \u2713 PASS: Custom Endpoints",
+    "2025-12-17 01:46:10,531 - root - INFO - Test Summary: 7/7 tests passed",
+    "2025-12-17 01:46:10,572 - root - INFO - Test results saved to /home/flock/esp32-testbench/scripts/../wifi_test_results.json",
+    "2025-12-17 01:46:10,573 - root - INFO - All tests passed!",
+    "2025-12-17 01:46:10,573 - services.wifi_service - INFO - WiFi HTTP session closed",
+    "2025-12-17 01:46:10,574 - services.wifi_network_manager - INFO - Restoring connection to original network: Downton Greggy",
+    "2025-12-17 01:46:10,574 - services.wifi_network_manager - INFO - Connecting to WiFi network: Downton Greggy",
+    "2025-12-17 01:46:21,405 - services.wifi_network_manager - INFO - Successfully connected to Downton Greggy",
+    "2025-12-17 01:46:21,405 - services.wifi_network_manager - INFO - Successfully restored connection to Downton Greggy",
+    "2025-12-17 01:46:21,405 - services.wifi_service - INFO - Restored connection to original WiFi network",
+    "2025-12-17 01:46:21,406 - root - INFO - Attempted to restore original WiFi network",
+    "2025-12-17 01:46:21,473 - root - INFO - Successfully restored to original network"
+  ]
+}
