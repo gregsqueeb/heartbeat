@@ -1,21 +1,21 @@
 {
-  "timestamp": "2025-12-19T23:47:10.084496+00:00",
+  "timestamp": "2025-12-19T23:48:13.363908+00:00",
   "webhook_server": {
     "online": true,
     "health": {
-      "last_heartbeat_seconds_ago": 62.1,
-      "last_heartbeat_timestamp": "2025-12-19T23:46:08.012020+00:00"
+      "last_heartbeat_seconds_ago": 63.3,
+      "last_heartbeat_timestamp": "2025-12-19T23:47:10.084496+00:00"
     },
     "pipeline_status": null,
     "error": null
   },
   "system": {
-    "uptime_seconds": 26821.36,
+    "uptime_seconds": 26884.64,
     "cpu_percent": 0.2,
-    "memory_percent": 9.4,
+    "memory_percent": 9.3,
     "disk_percent": 19.8,
-    "disk_free_gb": 44.73611831665039,
-    "timestamp": "2025-12-19T18:47:10.085013"
+    "disk_free_gb": 44.73610305786133,
+    "timestamp": "2025-12-19T18:48:13.364381"
   },
   "activity": {
     "last_report": {
@@ -26,6 +26,18 @@
     "total_reports": 25
   },
   "recent_log": [
+    "2025-12-19 18:48:01,186 - services.git_monitor - INFO - No new commits found",
+    "2025-12-19 18:48:01,064 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-19 18:47:57,252 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-19 18:47:57,081 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-19 18:47:42,252 - services.git_monitor - INFO - No new commits found",
+    "2025-12-19 18:47:42,080 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-19 18:47:38,083 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-19 18:47:37,922 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-19 18:47:23,082 - services.git_monitor - INFO - No new commits found",
+    "2025-12-19 18:47:22,922 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-19 18:47:18,896 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-19 18:47:18,351 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
     "2025-12-19 18:47:03,895 - services.web_repo_monitor - INFO - No new commits found",
     "2025-12-19 18:47:03,351 - services.git_monitor - INFO - No new commits found",
     "2025-12-19 18:46:59,679 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
@@ -33,18 +45,6 @@
     "2025-12-19 18:46:44,679 - services.web_repo_monitor - INFO - No new commits found",
     "2025-12-19 18:46:44,058 - services.git_monitor - INFO - No new commits found",
     "2025-12-19 18:46:40,454 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-19 18:46:39,540 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-19 18:46:25,453 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-19 18:46:21,349 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-19 18:46:19,864 - services.github_pages_publisher - INFO - Successfully published 1 report(s) to GitHub Pages",
-    "2025-12-19 18:46:19,864 - services.github_pages_publisher - INFO - Reports available at: https://gregsqueeb/gauge-test-results/",
-    "2025-12-19 18:46:19,864 - services.report_generator - INFO - Report published to GitHub Pages successfully",
-    "2025-12-19 18:46:12,710 - services.github_pages_publisher - INFO - Committed changes: Update test reports - 2025-12-19 18:46:12",
-    "2025-12-19 18:46:10,876 - services.github_pages_publisher - INFO - Created index.html with 25 reports",
-    "2025-12-19 18:46:10,868 - services.github_pages_publisher - INFO - Copied package update_20251219_184016.tar to github_pages_repo/docs/packages/update_20251219_184016.tar",
-    "2025-12-19 18:46:10,837 - services.github_pages_publisher - INFO - Publishing 1 report(s) to GitHub Pages...",
-    "2025-12-19 18:46:10,836 - services.github_pages_publisher - INFO - Repository updated successfully",
-    "2025-12-19 18:46:07,793 - services.github_pages_publisher - INFO - Repository already exists at github_pages_repo, updating...",
-    "2025-12-19 18:46:07,792 - services.report_generator - INFO - Report generated: reports/report_20251219_234607.html"
+    "2025-12-19 18:46:39,540 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)"
   ]
 }
