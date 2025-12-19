@@ -1,21 +1,21 @@
 {
-  "timestamp": "2025-12-19T17:12:53.792960+00:00",
+  "timestamp": "2025-12-19T17:14:00.824866+00:00",
   "webhook_server": {
     "online": true,
     "health": {
-      "last_heartbeat_seconds_ago": 60.5,
-      "last_heartbeat_timestamp": "2025-12-19T17:11:53.335407+00:00"
+      "last_heartbeat_seconds_ago": 67.0,
+      "last_heartbeat_timestamp": "2025-12-19T17:12:53.792960+00:00"
     },
     "pipeline_status": null,
     "error": null
   },
   "system": {
-    "uptime_seconds": 3165.07,
-    "cpu_percent": 1.0,
-    "memory_percent": 24.1,
+    "uptime_seconds": 3232.1,
+    "cpu_percent": 54.8,
+    "memory_percent": 28.3,
     "disk_percent": 19.5,
-    "disk_free_gb": 44.880828857421875,
-    "timestamp": "2025-12-19T12:12:53.793422"
+    "disk_free_gb": 44.87301254272461,
+    "timestamp": "2025-12-19T12:14:00.826146"
   },
   "activity": {
     "last_report": {
@@ -26,6 +26,15 @@
     "total_reports": 23
   },
   "recent_log": [
+    "2025-12-19 12:13:29,122 - services.build_service - INFO - Running: /home/flock/esp32-testbench/venv/bin/pio run",
+    "2025-12-19 12:13:29,106 - services.build_service - INFO - Building firmware with PlatformIO...",
+    "2025-12-19 12:13:29,105 - services.build_service - INFO - Found platformio.ini",
+    "2025-12-19 12:13:27,556 - services.web_repo_monitor - INFO - Repository updated successfully",
+    "2025-12-19 12:13:24,593 - services.web_repo_monitor - INFO - Cloning/updating repository: https://github.com/gregsqueeb/Gauge-SD-Card.git (branch: test-suite-implementation)",
+    "2025-12-19 12:13:24,593 - services.web_repo_monitor - INFO - Repository already exists at web_repo, updating...",
+    "2025-12-19 12:13:24,554 - services.web_repo_monitor - INFO - New commit detected: faff8ef9",
+    "2025-12-19 12:13:24,554 - services.web_repo_monitor - INFO - Commit message: Update settings.html",
+    "2025-12-19 12:13:24,554 - services.web_repo_monitor - INFO - New commit detected via polling",
     "2025-12-19 12:03:24,333 - services.web_repo_monitor - INFO - Starting polling loop (interval: 15s)",
     "2025-12-19 12:03:24,333 - services.web_repo_monitor - INFO - Polling started",
     "2025-12-19 12:03:24,331 - services.git_monitor - INFO - Starting polling loop (interval: 15s)",
@@ -36,15 +45,6 @@
     "2025-12-19 00:42:59,259 - services.github_pages_publisher - INFO - Reports available at: https://gregsqueeb/gauge-test-results/",
     "2025-12-19 00:42:59,259 - services.report_generator - INFO - Report published to GitHub Pages successfully",
     "2025-12-19 00:42:59,258 - services.github_pages_publisher - INFO - Successfully published 1 report(s) to GitHub Pages",
-    "2025-12-19 00:42:53,250 - services.github_pages_publisher - INFO - Committed changes: Update test reports - 2025-12-19 00:42:53",
-    "2025-12-19 00:42:51,495 - services.github_pages_publisher - INFO - Created index.html with 19 reports",
-    "2025-12-19 00:42:51,487 - services.github_pages_publisher - INFO - Copied package update_20251219_003746.tar to github_pages_repo/docs/packages/update_20251219_003746.tar",
-    "2025-12-19 00:42:51,458 - services.github_pages_publisher - INFO - Publishing 1 report(s) to GitHub Pages...",
-    "2025-12-19 00:42:51,457 - services.github_pages_publisher - INFO - Repository updated successfully",
-    "2025-12-19 00:42:48,845 - services.report_generator - INFO - Report generated: reports/report_20251219_054248.html",
-    "2025-12-19 00:42:48,845 - services.report_generator - INFO - Publishing report to GitHub Pages...",
-    "2025-12-19 00:42:48,845 - services.github_pages_publisher - INFO - Cloning/updating GitHub Pages repository: git@github.com:gregsqueeb/gauge-test-results.git",
-    "2025-12-19 00:42:48,845 - services.github_pages_publisher - INFO - Repository already exists at github_pages_repo, updating...",
-    "2025-12-19 00:42:48,570 - services.wifi_network_manager - INFO - Successfully connected to Downton Greggy"
+    "2025-12-19 00:42:53,250 - services.github_pages_publisher - INFO - Committed changes: Update test reports - 2025-12-19 00:42:53"
   ]
 }
