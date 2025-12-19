@@ -1,21 +1,21 @@
 {
-  "timestamp": "2025-12-19T17:17:12.265113+00:00",
+  "timestamp": "2025-12-19T17:18:12.879633+00:00",
   "webhook_server": {
     "online": true,
     "health": {
-      "last_heartbeat_seconds_ago": 70.6,
-      "last_heartbeat_timestamp": "2025-12-19T17:16:01.686628+00:00"
+      "last_heartbeat_seconds_ago": 60.6,
+      "last_heartbeat_timestamp": "2025-12-19T17:17:12.265113+00:00"
     },
     "pipeline_status": null,
     "error": null
   },
   "system": {
-    "uptime_seconds": 3423.54,
-    "cpu_percent": 5.0,
-    "memory_percent": 24.4,
+    "uptime_seconds": 3484.16,
+    "cpu_percent": 17.4,
+    "memory_percent": 23.9,
     "disk_percent": 19.5,
-    "disk_free_gb": 44.864662170410156,
-    "timestamp": "2025-12-19T12:17:12.265583"
+    "disk_free_gb": 44.864601135253906,
+    "timestamp": "2025-12-19T12:18:12.880087"
   },
   "activity": {
     "last_report": {
@@ -26,25 +26,25 @@
     "total_reports": 23
   },
   "recent_log": [
+    "2025-12-19 12:18:11,347 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-19 12:18:11,346 - services.git_monitor - INFO - Polling started",
+    "2025-12-19 12:18:11,346 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-19 12:18:11,346 - services.web_repo_monitor - INFO - Starting polling loop (interval: 15s)",
+    "2025-12-19 12:18:11,346 - services.web_repo_monitor - INFO - Polling started",
+    "2025-12-19 12:18:11,345 - services.git_monitor - INFO - Starting polling loop (interval: 15s)",
+    "2025-12-19 12:18:11,337 - services.web_repo_monitor - INFO - Repository updated successfully",
+    "2025-12-19 12:18:08,828 - services.web_repo_monitor - INFO - Cloning/updating repository: https://github.com/gregsqueeb/Gauge-SD-Card.git (branch: test-suite-implementation)",
+    "2025-12-19 12:18:08,828 - services.web_repo_monitor - INFO - Repository already exists at web_repo, updating...",
+    "2025-12-19 12:18:03,229 - services.web_repo_monitor - INFO - Polling stopped",
+    "2025-12-19 12:18:03,228 - services.web_repo_monitor - INFO - Polling loop stopped",
+    "2025-12-19 12:18:03,225 - services.git_monitor - INFO - Polling stopped",
+    "2025-12-19 12:18:03,225 - services.web_repo_monitor - INFO - Stopping polling...",
+    "2025-12-19 12:18:03,222 - services.git_monitor - INFO - Stopping polling...",
+    "2025-12-19 12:18:03,222 - services.git_monitor - INFO - Polling loop stopped",
     "2025-12-19 12:14:08,328 - services.flash_service - ERROR - Last flash output lines:",
     "2025-12-19 12:14:08,328 - services.flash_service - ERROR -   esptool v5.1.0",
     "2025-12-19 12:14:08,328 - services.flash_service - ERROR -   Serial port /dev/ttyUSB0:",
     "2025-12-19 12:14:08,328 - services.flash_service - ERROR -   Connecting.........",
-    "2025-12-19 12:14:08,328 - services.flash_service - ERROR -   A fatal error occurred: This chip is ESP32-S3, not ESP32. Wrong chip argument?",
-    "2025-12-19 12:14:08,327 - services.flash_service - ERROR - Firmware flash failed",
-    "2025-12-19 12:14:06,351 - services.flash_service - INFO -   Baud rate: 460800",
-    "2025-12-19 12:14:06,351 - services.flash_service - INFO - Running: /home/flock/esp32-testbench/venv/bin/esptool --chip esp32 --port /dev/ttyUSB0 --baud 460800 --before default-reset --after hard-reset write-flash --flash-mode dio --flash-freq 80m --flash-size 4MB 0x10000 builds/firmware_76997fa9_20251219_121405.bin",
-    "2025-12-19 12:14:06,350 - services.flash_service - INFO - Device detected: esp32 at /dev/ttyUSB0",
-    "2025-12-19 12:14:06,350 - services.flash_service - INFO - Using detected chip type: esp32",
-    "2025-12-19 12:14:06,350 - services.flash_service - INFO - Flashing firmware to ESP32 at /dev/ttyUSB0...",
-    "2025-12-19 12:14:06,350 - services.flash_service - INFO -   Binary: builds/firmware_76997fa9_20251219_121405.bin",
-    "2025-12-19 12:14:06,350 - services.flash_service - INFO -   Chip: esp32",
-    "2025-12-19 12:14:06,350 - services.flash_service - INFO -   Flash mode: dio",
-    "2025-12-19 12:14:06,350 - services.flash_service - INFO -   Flash freq: 80m",
-    "2025-12-19 12:14:06,350 - services.flash_service - INFO -   Flash size: 4MB",
-    "2025-12-19 12:14:05,677 - services.flash_service - INFO - Auto-detected ESP32 at /dev/ttyUSB0",
-    "2025-12-19 12:14:05,677 - services.flash_service - INFO - Detecting ESP32 device at /dev/ttyUSB0...",
-    "2025-12-19 12:14:05,346 - services.package_service - INFO - Package created successfully: packages/update_20251219_121405.tar (6737920 bytes)",
-    "2025-12-19 12:14:05,124 - services.package_service - INFO - Copying web files from: web_repo"
+    "2025-12-19 12:14:08,328 - services.flash_service - ERROR -   A fatal error occurred: This chip is ESP32-S3, not ESP32. Wrong chip argument?"
   ]
 }
