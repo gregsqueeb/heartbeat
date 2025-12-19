@@ -1,50 +1,50 @@
 {
-  "timestamp": "2025-12-19T23:46:08.012020+00:00",
+  "timestamp": "2025-12-19T23:47:10.084496+00:00",
   "webhook_server": {
     "online": true,
     "health": {
-      "last_heartbeat_seconds_ago": 138.5,
-      "last_heartbeat_timestamp": "2025-12-19T23:43:49.463606+00:00"
+      "last_heartbeat_seconds_ago": 62.1,
+      "last_heartbeat_timestamp": "2025-12-19T23:46:08.012020+00:00"
     },
     "pipeline_status": null,
     "error": null
   },
   "system": {
-    "uptime_seconds": 26759.29,
-    "cpu_percent": 8.3,
-    "memory_percent": 11.5,
-    "disk_percent": 19.7,
-    "disk_free_gb": 44.76669692993164,
-    "timestamp": "2025-12-19T18:46:08.012477"
+    "uptime_seconds": 26821.36,
+    "cpu_percent": 0.2,
+    "memory_percent": 9.4,
+    "disk_percent": 19.8,
+    "disk_free_gb": 44.73611831665039,
+    "timestamp": "2025-12-19T18:47:10.085013"
   },
   "activity": {
     "last_report": {
       "filename": "report_20251219_234607.html",
-      "timestamp": "2025-12-19T18:46:07.768767"
+      "timestamp": "2025-12-19T18:46:20.068596"
     },
     "last_pipeline_run": null,
     "total_reports": 25
   },
   "recent_log": [
+    "2025-12-19 18:47:03,895 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-19 18:47:03,351 - services.git_monitor - INFO - No new commits found",
+    "2025-12-19 18:46:59,679 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-19 18:46:59,058 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-19 18:46:44,679 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-19 18:46:44,058 - services.git_monitor - INFO - No new commits found",
+    "2025-12-19 18:46:40,454 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-19 18:46:39,540 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-19 18:46:25,453 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-19 18:46:21,349 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-19 18:46:19,864 - services.github_pages_publisher - INFO - Successfully published 1 report(s) to GitHub Pages",
+    "2025-12-19 18:46:19,864 - services.github_pages_publisher - INFO - Reports available at: https://gregsqueeb/gauge-test-results/",
+    "2025-12-19 18:46:19,864 - services.report_generator - INFO - Report published to GitHub Pages successfully",
+    "2025-12-19 18:46:12,710 - services.github_pages_publisher - INFO - Committed changes: Update test reports - 2025-12-19 18:46:12",
+    "2025-12-19 18:46:10,876 - services.github_pages_publisher - INFO - Created index.html with 25 reports",
+    "2025-12-19 18:46:10,868 - services.github_pages_publisher - INFO - Copied package update_20251219_184016.tar to github_pages_repo/docs/packages/update_20251219_184016.tar",
+    "2025-12-19 18:46:10,837 - services.github_pages_publisher - INFO - Publishing 1 report(s) to GitHub Pages...",
+    "2025-12-19 18:46:10,836 - services.github_pages_publisher - INFO - Repository updated successfully",
     "2025-12-19 18:46:07,793 - services.github_pages_publisher - INFO - Repository already exists at github_pages_repo, updating...",
-    "2025-12-19 18:46:07,792 - services.report_generator - INFO - Report generated: reports/report_20251219_234607.html",
-    "2025-12-19 18:46:07,792 - services.report_generator - INFO - Publishing report to GitHub Pages...",
-    "2025-12-19 18:46:07,792 - services.github_pages_publisher - INFO - Cloning/updating GitHub Pages repository: git@github.com:gregsqueeb/gauge-test-results.git",
-    "2025-12-19 18:46:07,480 - services.wifi_network_manager - INFO - Successfully connected to Downton Greggy",
-    "2025-12-19 18:46:07,480 - services.wifi_network_manager - INFO - Successfully restored connection to Downton Greggy",
-    "2025-12-19 18:46:07,480 - services.wifi_service - INFO - Restored connection to original WiFi network",
-    "2025-12-19 18:46:07,480 - test_runner - INFO - Cleanup complete",
-    "2025-12-19 18:46:06,348 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-19 18:45:55,825 - services.wifi_network_manager - INFO - Successfully connected to Downton Greggy",
-    "2025-12-19 18:45:55,825 - services.wifi_network_manager - INFO - Successfully restored connection to Downton Greggy",
-    "2025-12-19 18:45:55,825 - services.wifi_service - INFO - Restored connection to original WiFi network",
-    "2025-12-19 18:45:55,825 - tests.test_web_server - INFO - Cleaning up services...",
-    "2025-12-19 18:45:55,825 - services.wifi_service - INFO - WiFi HTTP session closed",
-    "2025-12-19 18:45:55,825 - services.wifi_network_manager - INFO - Restoring connection to original network: Downton Greggy",
-    "2025-12-19 18:45:55,825 - services.wifi_network_manager - INFO - Connecting to WiFi network: Downton Greggy",
-    "2025-12-19 18:45:54,420 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-19 18:45:48,086 - tests.test_buttons - INFO - Cleaning up services...",
-    "2025-12-19 18:45:48,086 - services.wifi_service - INFO - WiFi HTTP session closed",
-    "2025-12-19 18:45:48,086 - services.wifi_network_manager - INFO - Restoring connection to original network: Downton Greggy"
+    "2025-12-19 18:46:07,792 - services.report_generator - INFO - Report generated: reports/report_20251219_234607.html"
   ]
 }
