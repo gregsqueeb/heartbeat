@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-19T11:43:29.263143",
+  "timestamp": "2025-12-19T16:56:06.419639+00:00",
   "webhook_server": {
     "online": false,
     "health": null,
@@ -7,20 +7,20 @@
     "error": "HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /health (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=5000): Failed to establish a new connection: [Errno 111] Connection refused\"))"
   },
   "system": {
-    "uptime_seconds": 1400.55,
-    "cpu_percent": 0.0,
-    "memory_percent": 23.3,
+    "uptime_seconds": 2157.7,
+    "cpu_percent": 3.8,
+    "memory_percent": 24.2,
     "disk_percent": 19.5,
-    "disk_free_gb": 44.89051818847656,
-    "timestamp": "2025-12-19T11:43:29.267654"
+    "disk_free_gb": 44.882022857666016,
+    "timestamp": "2025-12-19T11:56:06.424055"
   },
   "activity": {
     "last_report": {
-      "filename": "report_20251219_164107.html",
-      "timestamp": "2025-12-19T11:41:07.584161"
+      "filename": "report_20251219_164932.html",
+      "timestamp": "2025-12-19T11:49:32.719046"
     },
     "last_pipeline_run": null,
-    "total_reports": 22
+    "total_reports": 23
   },
   "recent_log": [
     "2025-12-17 01:46:07,390 - services.wifi_service - INFO - Ensuring connection to Flock WiFi network...",
