@@ -1,21 +1,21 @@
 {
-  "timestamp": "2025-12-19T17:14:00.824866+00:00",
+  "timestamp": "2025-12-19T17:15:01.064866+00:00",
   "webhook_server": {
     "online": true,
     "health": {
-      "last_heartbeat_seconds_ago": 67.0,
-      "last_heartbeat_timestamp": "2025-12-19T17:12:53.792960+00:00"
+      "last_heartbeat_seconds_ago": 60.2,
+      "last_heartbeat_timestamp": "2025-12-19T17:14:00.824866+00:00"
     },
     "pipeline_status": null,
     "error": null
   },
   "system": {
-    "uptime_seconds": 3232.1,
-    "cpu_percent": 54.8,
-    "memory_percent": 28.3,
+    "uptime_seconds": 3292.34,
+    "cpu_percent": 6.8,
+    "memory_percent": 24.2,
     "disk_percent": 19.5,
-    "disk_free_gb": 44.87301254272461,
-    "timestamp": "2025-12-19T12:14:00.826146"
+    "disk_free_gb": 44.86520767211914,
+    "timestamp": "2025-12-19T12:15:01.065340"
   },
   "activity": {
     "last_report": {
@@ -26,25 +26,25 @@
     "total_reports": 23
   },
   "recent_log": [
-    "2025-12-19 12:13:29,122 - services.build_service - INFO - Running: /home/flock/esp32-testbench/venv/bin/pio run",
-    "2025-12-19 12:13:29,106 - services.build_service - INFO - Building firmware with PlatformIO...",
-    "2025-12-19 12:13:29,105 - services.build_service - INFO - Found platformio.ini",
-    "2025-12-19 12:13:27,556 - services.web_repo_monitor - INFO - Repository updated successfully",
-    "2025-12-19 12:13:24,593 - services.web_repo_monitor - INFO - Cloning/updating repository: https://github.com/gregsqueeb/Gauge-SD-Card.git (branch: test-suite-implementation)",
-    "2025-12-19 12:13:24,593 - services.web_repo_monitor - INFO - Repository already exists at web_repo, updating...",
-    "2025-12-19 12:13:24,554 - services.web_repo_monitor - INFO - New commit detected: faff8ef9",
-    "2025-12-19 12:13:24,554 - services.web_repo_monitor - INFO - Commit message: Update settings.html",
-    "2025-12-19 12:13:24,554 - services.web_repo_monitor - INFO - New commit detected via polling",
-    "2025-12-19 12:03:24,333 - services.web_repo_monitor - INFO - Starting polling loop (interval: 15s)",
-    "2025-12-19 12:03:24,333 - services.web_repo_monitor - INFO - Polling started",
-    "2025-12-19 12:03:24,331 - services.git_monitor - INFO - Starting polling loop (interval: 15s)",
-    "2025-12-19 12:03:24,331 - services.git_monitor - INFO - Polling started",
-    "2025-12-19 12:03:24,323 - services.web_repo_monitor - INFO - Repository updated successfully",
-    "2025-12-19 12:03:21,801 - services.web_repo_monitor - INFO - Repository already exists at web_repo, updating...",
-    "2025-12-19 12:03:21,800 - services.web_repo_monitor - INFO - Cloning/updating repository: https://github.com/gregsqueeb/Gauge-SD-Card.git (branch: test-suite-implementation)",
-    "2025-12-19 00:42:59,259 - services.github_pages_publisher - INFO - Reports available at: https://gregsqueeb/gauge-test-results/",
-    "2025-12-19 00:42:59,259 - services.report_generator - INFO - Report published to GitHub Pages successfully",
-    "2025-12-19 00:42:59,258 - services.github_pages_publisher - INFO - Successfully published 1 report(s) to GitHub Pages",
-    "2025-12-19 00:42:53,250 - services.github_pages_publisher - INFO - Committed changes: Update test reports - 2025-12-19 00:42:53"
+    "2025-12-19 12:14:08,328 - services.flash_service - ERROR - Last flash output lines:",
+    "2025-12-19 12:14:08,328 - services.flash_service - ERROR -   esptool v5.1.0",
+    "2025-12-19 12:14:08,328 - services.flash_service - ERROR -   Serial port /dev/ttyUSB0:",
+    "2025-12-19 12:14:08,328 - services.flash_service - ERROR -   Connecting.........",
+    "2025-12-19 12:14:08,328 - services.flash_service - ERROR -   A fatal error occurred: This chip is ESP32-S3, not ESP32. Wrong chip argument?",
+    "2025-12-19 12:14:08,327 - services.flash_service - ERROR - Firmware flash failed",
+    "2025-12-19 12:14:06,351 - services.flash_service - INFO -   Baud rate: 460800",
+    "2025-12-19 12:14:06,351 - services.flash_service - INFO - Running: /home/flock/esp32-testbench/venv/bin/esptool --chip esp32 --port /dev/ttyUSB0 --baud 460800 --before default-reset --after hard-reset write-flash --flash-mode dio --flash-freq 80m --flash-size 4MB 0x10000 builds/firmware_76997fa9_20251219_121405.bin",
+    "2025-12-19 12:14:06,350 - services.flash_service - INFO - Device detected: esp32 at /dev/ttyUSB0",
+    "2025-12-19 12:14:06,350 - services.flash_service - INFO - Using detected chip type: esp32",
+    "2025-12-19 12:14:06,350 - services.flash_service - INFO - Flashing firmware to ESP32 at /dev/ttyUSB0...",
+    "2025-12-19 12:14:06,350 - services.flash_service - INFO -   Binary: builds/firmware_76997fa9_20251219_121405.bin",
+    "2025-12-19 12:14:06,350 - services.flash_service - INFO -   Chip: esp32",
+    "2025-12-19 12:14:06,350 - services.flash_service - INFO -   Flash mode: dio",
+    "2025-12-19 12:14:06,350 - services.flash_service - INFO -   Flash freq: 80m",
+    "2025-12-19 12:14:06,350 - services.flash_service - INFO -   Flash size: 4MB",
+    "2025-12-19 12:14:05,677 - services.flash_service - INFO - Auto-detected ESP32 at /dev/ttyUSB0",
+    "2025-12-19 12:14:05,677 - services.flash_service - INFO - Detecting ESP32 device at /dev/ttyUSB0...",
+    "2025-12-19 12:14:05,346 - services.package_service - INFO - Package created successfully: packages/update_20251219_121405.tar (6737920 bytes)",
+    "2025-12-19 12:14:05,124 - services.package_service - INFO - Copying web files from: web_repo"
   ]
 }
