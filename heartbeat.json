@@ -1,21 +1,21 @@
 {
-  "timestamp": "2025-12-19T17:18:12.879633+00:00",
+  "timestamp": "2025-12-19T17:19:13.348675+00:00",
   "webhook_server": {
     "online": true,
     "health": {
-      "last_heartbeat_seconds_ago": 60.6,
-      "last_heartbeat_timestamp": "2025-12-19T17:17:12.265113+00:00"
+      "last_heartbeat_seconds_ago": 60.5,
+      "last_heartbeat_timestamp": "2025-12-19T17:18:12.879633+00:00"
     },
     "pipeline_status": null,
     "error": null
   },
   "system": {
-    "uptime_seconds": 3484.16,
-    "cpu_percent": 17.4,
-    "memory_percent": 23.9,
+    "uptime_seconds": 3544.63,
+    "cpu_percent": 38.7,
+    "memory_percent": 28.5,
     "disk_percent": 19.5,
-    "disk_free_gb": 44.864601135253906,
-    "timestamp": "2025-12-19T12:18:12.880087"
+    "disk_free_gb": 44.86457824707031,
+    "timestamp": "2025-12-19T12:19:13.349248"
   },
   "activity": {
     "last_report": {
@@ -26,25 +26,25 @@
     "total_reports": 23
   },
   "recent_log": [
+    "2025-12-19 12:19:13,285 - services.git_monitor - INFO - No new commits found",
+    "2025-12-19 12:19:13,097 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-19 12:19:08,050 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-19 12:19:07,931 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-19 12:18:53,050 - services.git_monitor - INFO - No new commits found",
+    "2025-12-19 12:18:52,931 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-19 12:18:49,142 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-19 12:18:49,123 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-19 12:18:34,142 - services.git_monitor - INFO - No new commits found",
+    "2025-12-19 12:18:34,123 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-19 12:18:30,252 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-19 12:18:30,241 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-19 12:18:15,250 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-19 12:18:15,241 - services.git_monitor - INFO - No new commits found",
     "2025-12-19 12:18:11,347 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
     "2025-12-19 12:18:11,346 - services.git_monitor - INFO - Polling started",
     "2025-12-19 12:18:11,346 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
     "2025-12-19 12:18:11,346 - services.web_repo_monitor - INFO - Starting polling loop (interval: 15s)",
     "2025-12-19 12:18:11,346 - services.web_repo_monitor - INFO - Polling started",
-    "2025-12-19 12:18:11,345 - services.git_monitor - INFO - Starting polling loop (interval: 15s)",
-    "2025-12-19 12:18:11,337 - services.web_repo_monitor - INFO - Repository updated successfully",
-    "2025-12-19 12:18:08,828 - services.web_repo_monitor - INFO - Cloning/updating repository: https://github.com/gregsqueeb/Gauge-SD-Card.git (branch: test-suite-implementation)",
-    "2025-12-19 12:18:08,828 - services.web_repo_monitor - INFO - Repository already exists at web_repo, updating...",
-    "2025-12-19 12:18:03,229 - services.web_repo_monitor - INFO - Polling stopped",
-    "2025-12-19 12:18:03,228 - services.web_repo_monitor - INFO - Polling loop stopped",
-    "2025-12-19 12:18:03,225 - services.git_monitor - INFO - Polling stopped",
-    "2025-12-19 12:18:03,225 - services.web_repo_monitor - INFO - Stopping polling...",
-    "2025-12-19 12:18:03,222 - services.git_monitor - INFO - Stopping polling...",
-    "2025-12-19 12:18:03,222 - services.git_monitor - INFO - Polling loop stopped",
-    "2025-12-19 12:14:08,328 - services.flash_service - ERROR - Last flash output lines:",
-    "2025-12-19 12:14:08,328 - services.flash_service - ERROR -   esptool v5.1.0",
-    "2025-12-19 12:14:08,328 - services.flash_service - ERROR -   Serial port /dev/ttyUSB0:",
-    "2025-12-19 12:14:08,328 - services.flash_service - ERROR -   Connecting.........",
-    "2025-12-19 12:14:08,328 - services.flash_service - ERROR -   A fatal error occurred: This chip is ESP32-S3, not ESP32. Wrong chip argument?"
+    "2025-12-19 12:18:11,345 - services.git_monitor - INFO - Starting polling loop (interval: 15s)"
   ]
 }
