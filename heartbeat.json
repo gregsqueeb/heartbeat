@@ -1,21 +1,21 @@
 {
-  "timestamp": "2025-12-19T23:39:37.221051+00:00",
+  "timestamp": "2025-12-19T23:40:37.861973+00:00",
   "webhook_server": {
     "online": true,
     "health": {
-      "last_heartbeat_seconds_ago": 61.8,
-      "last_heartbeat_timestamp": "2025-12-19T23:38:35.442007+00:00"
+      "last_heartbeat_seconds_ago": 60.6,
+      "last_heartbeat_timestamp": "2025-12-19T23:39:37.221051+00:00"
     },
     "pipeline_status": null,
     "error": null
   },
   "system": {
-    "uptime_seconds": 26368.5,
-    "cpu_percent": 50.3,
-    "memory_percent": 30.0,
-    "disk_percent": 19.6,
-    "disk_free_gb": 44.84693145751953,
-    "timestamp": "2025-12-19T18:39:37.222719"
+    "uptime_seconds": 26429.14,
+    "cpu_percent": 3.3,
+    "memory_percent": 9.2,
+    "disk_percent": 19.7,
+    "disk_free_gb": 44.788612365722656,
+    "timestamp": "2025-12-19T18:40:37.862438"
   },
   "activity": {
     "last_report": {
@@ -26,25 +26,25 @@
     "total_reports": 24
   },
   "recent_log": [
-    "2025-12-19 18:39:36,974 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-19 18:39:32,771 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-19 18:39:17,770 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-19 18:39:13,299 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-19 18:38:58,299 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-19 18:38:53,146 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-19 18:38:38,145 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-19 18:38:32,636 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-19 18:38:17,626 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-19 18:38:13,500 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-19 18:38:07,671 - services.build_service - INFO - Running: /home/flock/esp32-testbench/venv/bin/pio run",
-    "2025-12-19 18:38:07,656 - services.build_service - INFO - Found platformio.ini",
-    "2025-12-19 18:38:07,656 - services.build_service - INFO - Building firmware with PlatformIO...",
-    "2025-12-19 18:38:04,488 - services.git_monitor - INFO - New commit detected: 2cea1c7c",
-    "2025-12-19 18:38:04,488 - services.git_monitor - INFO - Commit message: Update version number in FlockVersion.h",
-    "2025-12-19 18:38:04,488 - services.git_monitor - INFO - New commit detected via polling",
-    "2025-12-19 18:38:00,079 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-19 18:37:58,500 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-19 18:37:54,304 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-19 18:37:45,078 - services.git_monitor - INFO - No new commits found"
+    "2025-12-19 18:40:33,518 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-19 18:40:29,289 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-19 18:40:21,281 - services.flash_service - INFO - Using detected chip type: esp32s3",
+    "2025-12-19 18:40:21,281 - services.flash_service - INFO - Flashing firmware to ESP32 at /dev/ttyUSB0...",
+    "2025-12-19 18:40:21,281 - services.flash_service - INFO -   Binary: builds/firmware_2cea1c7c_20251219_184016.bin",
+    "2025-12-19 18:40:21,281 - services.flash_service - INFO -   Chip: esp32s3",
+    "2025-12-19 18:40:21,281 - services.flash_service - INFO -   Flash mode: dio",
+    "2025-12-19 18:40:21,281 - services.flash_service - INFO -   Flash freq: 80m",
+    "2025-12-19 18:40:21,281 - services.flash_service - INFO -   Flash size: 4MB",
+    "2025-12-19 18:40:21,281 - services.flash_service - INFO -   Baud rate: 460800",
+    "2025-12-19 18:40:21,281 - services.flash_service - INFO - Running: /home/flock/esp32-testbench/venv/bin/esptool --chip esp32s3 --port /dev/ttyUSB0 --baud 460800 --before default-reset --after hard-reset write-flash --flash-mode dio --flash-freq 80m --flash-size 4MB 0x10000 builds/firmware_2cea1c7c_20251219_184016.bin",
+    "2025-12-19 18:40:21,280 - services.flash_service - INFO - Device detected: esp32s3 at /dev/ttyUSB0",
+    "2025-12-19 18:40:18,384 - services.flash_service - INFO - Auto-detected ESP32 at /dev/ttyUSB0",
+    "2025-12-19 18:40:18,384 - services.flash_service - INFO - Detecting ESP32 device at /dev/ttyUSB0...",
+    "2025-12-19 18:40:16,916 - services.package_service - INFO - Package created successfully: packages/update_20251219_184016.tar (6737920 bytes)",
+    "2025-12-19 18:40:16,758 - services.package_service - INFO - Copied firmware binary: packages/update_20251219_184016/update/update.bin",
+    "2025-12-19 18:40:16,758 - services.package_service - INFO - Copying web files from: web_repo",
+    "2025-12-19 18:40:16,754 - services.build_service - INFO - Firmware built successfully: builds/firmware_2cea1c7c_20251219_184016.bin",
+    "2025-12-19 18:40:16,751 - services.build_service - INFO - Found binary in environment: esp32-s3-devkitc-1",
+    "2025-12-19 18:40:16,750 - services.build_service - INFO - Building in release mode"
   ]
 }
