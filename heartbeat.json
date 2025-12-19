@@ -1,50 +1,50 @@
 {
-  "timestamp": "2025-12-19T17:24:20.682362+00:00",
+  "timestamp": "2025-12-19T17:25:21.624288+00:00",
   "webhook_server": {
     "online": true,
     "health": {
-      "last_heartbeat_seconds_ago": 60.7,
-      "last_heartbeat_timestamp": "2025-12-19T17:23:19.977595+00:00"
+      "last_heartbeat_seconds_ago": 60.9,
+      "last_heartbeat_timestamp": "2025-12-19T17:24:20.682362+00:00"
     },
     "pipeline_status": null,
     "error": null
   },
   "system": {
-    "uptime_seconds": 3851.96,
-    "cpu_percent": 1.0,
-    "memory_percent": 31.2,
-    "disk_percent": 19.6,
-    "disk_free_gb": 44.84543228149414,
-    "timestamp": "2025-12-19T12:24:20.682822"
+    "uptime_seconds": 3912.9,
+    "cpu_percent": 22.1,
+    "memory_percent": 28.5,
+    "disk_percent": 19.7,
+    "disk_free_gb": 44.80240249633789,
+    "timestamp": "2025-12-19T12:25:21.624914"
   },
   "activity": {
     "last_report": {
-      "filename": "report_20251219_164932.html",
-      "timestamp": "2025-12-19T11:49:32.719046"
+      "filename": "report_20251219_172514.html",
+      "timestamp": "2025-12-19T12:25:14.683251"
     },
     "last_pipeline_run": null,
-    "total_reports": 23
+    "total_reports": 24
   },
   "recent_log": [
+    "2025-12-19 12:25:21,568 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-19 12:25:20,631 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-19 12:25:06,568 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-19 12:25:05,631 - services.git_monitor - INFO - No new commits found",
+    "2025-12-19 12:24:57,919 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-19 12:24:50,687 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-19 12:24:42,919 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-19 12:24:42,868 - services.web_repo_monitor - WARNING - git fetch failed: ssh: Could not resolve hostname github.com: Temporary failure in name resolution",
+    "2025-12-19 12:24:42,850 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-19 12:24:35,687 - services.git_monitor - INFO - No new commits found",
+    "2025-12-19 12:24:35,572 - services.git_monitor - WARNING - git fetch failed: ssh: Could not resolve hostname github.com: Temporary failure in name resolution",
+    "2025-12-19 12:24:35,535 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-19 12:24:27,849 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-19 12:24:27,500 - services.web_repo_monitor - WARNING - git fetch failed: ssh: Could not resolve hostname github.com: Temporary failure in name resolution",
+    "2025-12-19 12:24:27,457 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
     "2025-12-19 12:24:20,534 - services.git_monitor - INFO - No new commits found",
     "2025-12-19 12:24:20,397 - services.git_monitor - WARNING - git fetch failed: ssh: Could not resolve hostname github.com: Temporary failure in name resolution",
     "2025-12-19 12:24:20,353 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
     "2025-12-19 12:24:12,457 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-19 12:24:12,406 - services.web_repo_monitor - WARNING - git fetch failed: ssh: Could not resolve hostname github.com: Temporary failure in name resolution",
-    "2025-12-19 12:24:12,388 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-19 12:24:05,352 - services.git_monitor - INFO - No new commits found",
-    "2025-12-19 12:24:05,237 - services.git_monitor - WARNING - git fetch failed: ssh: Could not resolve hostname github.com: Temporary failure in name resolution",
-    "2025-12-19 12:24:05,192 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-19 12:23:57,387 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-19 12:23:57,302 - services.web_repo_monitor - WARNING - git fetch failed: ssh: Could not resolve hostname github.com: Temporary failure in name resolution",
-    "2025-12-19 12:23:57,277 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-19 12:23:50,191 - services.git_monitor - INFO - No new commits found",
-    "2025-12-19 12:23:50,040 - services.git_monitor - WARNING - git fetch failed: ssh: Could not resolve hostname github.com: Temporary failure in name resolution",
-    "2025-12-19 12:23:50,004 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-19 12:23:42,277 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-19 12:23:42,203 - services.web_repo_monitor - WARNING - git fetch failed: ssh: Could not resolve hostname github.com: Temporary failure in name resolution",
-    "2025-12-19 12:23:42,168 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-19 12:23:35,004 - services.git_monitor - INFO - No new commits found",
-    "2025-12-19 12:23:34,866 - services.git_monitor - WARNING - git fetch failed: ssh: Could not resolve hostname github.com: Temporary failure in name resolution"
+    "2025-12-19 12:24:12,406 - services.web_repo_monitor - WARNING - git fetch failed: ssh: Could not resolve hostname github.com: Temporary failure in name resolution"
   ]
 }
