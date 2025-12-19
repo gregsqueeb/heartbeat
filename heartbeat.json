@@ -1,50 +1,50 @@
 {
-  "timestamp": "2025-12-19T23:43:49.463606+00:00",
+  "timestamp": "2025-12-19T23:46:08.012020+00:00",
   "webhook_server": {
     "online": true,
     "health": {
-      "last_heartbeat_seconds_ago": 63.6,
-      "last_heartbeat_timestamp": "2025-12-19T23:42:45.862852+00:00"
+      "last_heartbeat_seconds_ago": 138.5,
+      "last_heartbeat_timestamp": "2025-12-19T23:43:49.463606+00:00"
     },
     "pipeline_status": null,
     "error": null
   },
   "system": {
-    "uptime_seconds": 26620.74,
-    "cpu_percent": 4.0,
-    "memory_percent": 10.3,
+    "uptime_seconds": 26759.29,
+    "cpu_percent": 8.3,
+    "memory_percent": 11.5,
     "disk_percent": 19.7,
-    "disk_free_gb": 44.778541564941406,
-    "timestamp": "2025-12-19T18:43:49.464062"
+    "disk_free_gb": 44.76669692993164,
+    "timestamp": "2025-12-19T18:46:08.012477"
   },
   "activity": {
     "last_report": {
-      "filename": "report_20251219_172514.html",
-      "timestamp": "2025-12-19T12:25:25.799082"
+      "filename": "report_20251219_234607.html",
+      "timestamp": "2025-12-19T18:46:07.768767"
     },
     "last_pipeline_run": null,
-    "total_reports": 24
+    "total_reports": 25
   },
   "recent_log": [
-    "2025-12-19 18:43:49,249 - services.wifi_network_manager - INFO - Scanning for WiFi networks...",
-    "2025-12-19 18:43:49,201 - services.wifi_network_manager - INFO - Saving original network for restoration: Downton Greggy",
-    "2025-12-19 18:43:49,149 - tests.test_web_server - INFO - \u2713 Short press right button completed successfully",
-    "2025-12-19 18:43:49,149 - tests.test_web_server - INFO - ",
-    "2025-12-19 18:43:49,149 - tests.test_web_server - INFO - Finding Flock WiFi network...",
-    "2025-12-19 18:43:49,148 - tests.test_web_server - INFO - Display captured: captures/web_server_short_press_right_2_20251219_184348.jpg",
-    "2025-12-19 18:43:49,147 - services.camera_service - INFO - Total capture time: 1.075s (delay: 1.0s, capture+save: 0.074s)",
-    "2025-12-19 18:43:49,146 - services.camera_service - INFO - Image captured and saved: captures/web_server_short_press_right_2_20251219_184348.jpg (1920x1080, 430907 bytes) at 18:43:49.146",
-    "2025-12-19 18:43:49,072 - services.camera_service - INFO - Delay complete, capturing image at 18:43:49.072",
-    "2025-12-19 18:43:48,072 - services.camera_service - INFO - Starting capture delay of 1.0s at 18:43:48.072",
-    "2025-12-19 18:43:47,071 - tests.test_web_server - INFO - Button command response: DEBUG: Page::clear() - filling sprite and pushing to display",
-    "2025-12-19 18:43:47,071 - tests.test_web_server - INFO - Waiting 1.0s for button press to take effect...",
-    "2025-12-19 18:43:42,301 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-19 18:43:42,069 - tests.test_web_server - INFO - Display captured: captures/web_server_long_press_right_1_20251219_184337.jpg",
-    "2025-12-19 18:43:42,069 - tests.test_web_server - INFO - \u2713 Long press right button completed successfully",
-    "2025-12-19 18:43:42,069 - tests.test_web_server - INFO - ",
-    "2025-12-19 18:43:42,069 - tests.test_web_server - INFO - Sending button command: button_right...",
-    "2025-12-19 18:43:42,067 - services.camera_service - INFO - Image captured and saved: captures/web_server_long_press_right_1_20251219_184337.jpg (1920x1080, 430746 bytes) at 18:43:42.066",
-    "2025-12-19 18:43:42,067 - services.camera_service - INFO - Total capture time: 4.279s (delay: 2.0s, capture+save: 2.279s)",
-    "2025-12-19 18:43:39,788 - services.camera_service - INFO - Delay complete, capturing image at 18:43:39.787"
+    "2025-12-19 18:46:07,793 - services.github_pages_publisher - INFO - Repository already exists at github_pages_repo, updating...",
+    "2025-12-19 18:46:07,792 - services.report_generator - INFO - Report generated: reports/report_20251219_234607.html",
+    "2025-12-19 18:46:07,792 - services.report_generator - INFO - Publishing report to GitHub Pages...",
+    "2025-12-19 18:46:07,792 - services.github_pages_publisher - INFO - Cloning/updating GitHub Pages repository: git@github.com:gregsqueeb/gauge-test-results.git",
+    "2025-12-19 18:46:07,480 - services.wifi_network_manager - INFO - Successfully connected to Downton Greggy",
+    "2025-12-19 18:46:07,480 - services.wifi_network_manager - INFO - Successfully restored connection to Downton Greggy",
+    "2025-12-19 18:46:07,480 - services.wifi_service - INFO - Restored connection to original WiFi network",
+    "2025-12-19 18:46:07,480 - test_runner - INFO - Cleanup complete",
+    "2025-12-19 18:46:06,348 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-19 18:45:55,825 - services.wifi_network_manager - INFO - Successfully connected to Downton Greggy",
+    "2025-12-19 18:45:55,825 - services.wifi_network_manager - INFO - Successfully restored connection to Downton Greggy",
+    "2025-12-19 18:45:55,825 - services.wifi_service - INFO - Restored connection to original WiFi network",
+    "2025-12-19 18:45:55,825 - tests.test_web_server - INFO - Cleaning up services...",
+    "2025-12-19 18:45:55,825 - services.wifi_service - INFO - WiFi HTTP session closed",
+    "2025-12-19 18:45:55,825 - services.wifi_network_manager - INFO - Restoring connection to original network: Downton Greggy",
+    "2025-12-19 18:45:55,825 - services.wifi_network_manager - INFO - Connecting to WiFi network: Downton Greggy",
+    "2025-12-19 18:45:54,420 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-19 18:45:48,086 - tests.test_buttons - INFO - Cleaning up services...",
+    "2025-12-19 18:45:48,086 - services.wifi_service - INFO - WiFi HTTP session closed",
+    "2025-12-19 18:45:48,086 - services.wifi_network_manager - INFO - Restoring connection to original network: Downton Greggy"
   ]
 }
