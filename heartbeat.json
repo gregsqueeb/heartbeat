@@ -1,21 +1,21 @@
 {
-  "timestamp": "2025-12-19T17:05:38.386783+00:00",
+  "timestamp": "2025-12-19T17:06:42.387309+00:00",
   "webhook_server": {
     "online": true,
     "health": {
-      "last_heartbeat_seconds_ago": 66.8,
-      "last_heartbeat_timestamp": "2025-12-19T17:04:31.581039+00:00"
+      "last_heartbeat_seconds_ago": 64.0,
+      "last_heartbeat_timestamp": "2025-12-19T17:05:38.386783+00:00"
     },
     "pipeline_status": null,
     "error": null
   },
   "system": {
-    "uptime_seconds": 2729.67,
-    "cpu_percent": 22.1,
-    "memory_percent": 24.2,
+    "uptime_seconds": 2793.67,
+    "cpu_percent": 7.2,
+    "memory_percent": 24.0,
     "disk_percent": 19.5,
-    "disk_free_gb": 44.881446838378906,
-    "timestamp": "2025-12-19T12:05:38.387233"
+    "disk_free_gb": 44.88135528564453,
+    "timestamp": "2025-12-19T12:06:42.387764"
   },
   "activity": {
     "last_report": {
@@ -26,25 +26,25 @@
     "total_reports": 23
   },
   "recent_log": [
-    "2025-12-17 01:46:07,390 - services.wifi_service - INFO - Ensuring connection to Flock WiFi network...",
-    "2025-12-17 01:46:07,434 - services.wifi_network_manager - INFO - Saving original network for restoration: flock \u2013 WaterTemp",
-    "2025-12-17 01:46:10,529 - root - INFO - \u2713 PASS: WiFi Network Connection",
-    "2025-12-17 01:46:10,529 - root - INFO - \u2713 PASS: HTTP Connectivity",
-    "2025-12-17 01:46:10,529 - root - INFO - \u2713 PASS: Settings Navigation",
-    "2025-12-17 01:46:10,530 - root - INFO - \u2713 PASS: Status Endpoint",
-    "2025-12-17 01:46:10,530 - root - INFO - \u2713 PASS: Info Endpoint",
-    "2025-12-17 01:46:10,530 - root - INFO - \u2713 PASS: Mode Switching",
-    "2025-12-17 01:46:10,530 - root - INFO - \u2713 PASS: Custom Endpoints",
-    "2025-12-17 01:46:10,531 - root - INFO - Test Summary: 7/7 tests passed",
-    "2025-12-17 01:46:10,572 - root - INFO - Test results saved to /home/flock/esp32-testbench/scripts/../wifi_test_results.json",
-    "2025-12-17 01:46:10,573 - root - INFO - All tests passed!",
-    "2025-12-17 01:46:10,573 - services.wifi_service - INFO - WiFi HTTP session closed",
-    "2025-12-17 01:46:10,574 - services.wifi_network_manager - INFO - Restoring connection to original network: Downton Greggy",
-    "2025-12-17 01:46:10,574 - services.wifi_network_manager - INFO - Connecting to WiFi network: Downton Greggy",
-    "2025-12-17 01:46:21,405 - services.wifi_network_manager - INFO - Successfully connected to Downton Greggy",
-    "2025-12-17 01:46:21,405 - services.wifi_network_manager - INFO - Successfully restored connection to Downton Greggy",
-    "2025-12-17 01:46:21,405 - services.wifi_service - INFO - Restored connection to original WiFi network",
-    "2025-12-17 01:46:21,406 - root - INFO - Attempted to restore original WiFi network",
-    "2025-12-17 01:46:21,473 - root - INFO - Successfully restored to original network"
+    "2025-12-19 12:03:24,333 - services.web_repo_monitor - INFO - Starting polling loop (interval: 15s)",
+    "2025-12-19 12:03:24,333 - services.web_repo_monitor - INFO - Polling started",
+    "2025-12-19 12:03:24,331 - services.git_monitor - INFO - Starting polling loop (interval: 15s)",
+    "2025-12-19 12:03:24,331 - services.git_monitor - INFO - Polling started",
+    "2025-12-19 12:03:24,323 - services.web_repo_monitor - INFO - Repository updated successfully",
+    "2025-12-19 12:03:21,801 - services.web_repo_monitor - INFO - Repository already exists at web_repo, updating...",
+    "2025-12-19 12:03:21,800 - services.web_repo_monitor - INFO - Cloning/updating repository: https://github.com/gregsqueeb/Gauge-SD-Card.git (branch: test-suite-implementation)",
+    "2025-12-19 00:42:59,259 - services.github_pages_publisher - INFO - Reports available at: https://gregsqueeb/gauge-test-results/",
+    "2025-12-19 00:42:59,259 - services.report_generator - INFO - Report published to GitHub Pages successfully",
+    "2025-12-19 00:42:59,258 - services.github_pages_publisher - INFO - Successfully published 1 report(s) to GitHub Pages",
+    "2025-12-19 00:42:53,250 - services.github_pages_publisher - INFO - Committed changes: Update test reports - 2025-12-19 00:42:53",
+    "2025-12-19 00:42:51,495 - services.github_pages_publisher - INFO - Created index.html with 19 reports",
+    "2025-12-19 00:42:51,487 - services.github_pages_publisher - INFO - Copied package update_20251219_003746.tar to github_pages_repo/docs/packages/update_20251219_003746.tar",
+    "2025-12-19 00:42:51,458 - services.github_pages_publisher - INFO - Publishing 1 report(s) to GitHub Pages...",
+    "2025-12-19 00:42:51,457 - services.github_pages_publisher - INFO - Repository updated successfully",
+    "2025-12-19 00:42:48,845 - services.report_generator - INFO - Report generated: reports/report_20251219_054248.html",
+    "2025-12-19 00:42:48,845 - services.report_generator - INFO - Publishing report to GitHub Pages...",
+    "2025-12-19 00:42:48,845 - services.github_pages_publisher - INFO - Cloning/updating GitHub Pages repository: git@github.com:gregsqueeb/gauge-test-results.git",
+    "2025-12-19 00:42:48,845 - services.github_pages_publisher - INFO - Repository already exists at github_pages_repo, updating...",
+    "2025-12-19 00:42:48,570 - services.wifi_network_manager - INFO - Successfully connected to Downton Greggy"
   ]
 }
