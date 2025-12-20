@@ -1,21 +1,21 @@
 {
-  "timestamp": "2025-12-20T17:30:47.757837+00:00",
+  "timestamp": "2025-12-20T17:31:50.886301+00:00",
   "webhook_server": {
     "online": true,
     "health": {
-      "last_heartbeat_seconds_ago": 72.7,
-      "last_heartbeat_timestamp": "2025-12-20T17:29:35.058623+00:00"
+      "last_heartbeat_seconds_ago": 63.1,
+      "last_heartbeat_timestamp": "2025-12-20T17:30:47.757837+00:00"
     },
     "pipeline_status": null,
     "error": null
   },
   "system": {
-    "uptime_seconds": 90639.04,
-    "cpu_percent": 4.8,
-    "memory_percent": 9.9,
+    "uptime_seconds": 90702.17,
+    "cpu_percent": 11.0,
+    "memory_percent": 9.8,
     "disk_percent": 19.8,
-    "disk_free_gb": 44.71980667114258,
-    "timestamp": "2025-12-20T12:30:47.758295"
+    "disk_free_gb": 44.71979522705078,
+    "timestamp": "2025-12-20T12:31:50.886752"
   },
   "activity": {
     "last_report": {
@@ -26,6 +26,17 @@
     "total_reports": 25
   },
   "recent_log": [
+    "2025-12-20 12:31:51,381 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-20 12:31:37,558 - services.git_monitor - INFO - No new commits found",
+    "2025-12-20 12:31:36,381 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-20 12:31:33,607 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-20 12:31:31,889 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-20 12:31:18,606 - services.git_monitor - INFO - No new commits found",
+    "2025-12-20 12:31:16,888 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-20 12:31:07,976 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-20 12:31:06,602 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-20 12:30:52,976 - services.git_monitor - INFO - No new commits found",
+    "2025-12-20 12:30:51,601 - services.web_repo_monitor - INFO - No new commits found",
     "2025-12-20 12:30:48,711 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
     "2025-12-20 12:30:47,258 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
     "2025-12-20 12:30:33,711 - services.git_monitor - INFO - No new commits found",
@@ -34,17 +45,6 @@
     "2025-12-20 12:30:28,154 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
     "2025-12-20 12:30:14,311 - services.git_monitor - INFO - No new commits found",
     "2025-12-20 12:30:13,153 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-20 12:30:09,934 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-20 12:30:09,144 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-20 12:29:54,934 - services.git_monitor - INFO - No new commits found",
-    "2025-12-20 12:29:54,144 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-20 12:29:50,741 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-20 12:29:49,605 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-20 12:29:35,740 - services.git_monitor - INFO - No new commits found",
-    "2025-12-20 12:29:34,605 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-20 12:29:31,474 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-20 12:29:30,589 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-20 12:29:16,474 - services.git_monitor - INFO - No new commits found",
-    "2025-12-20 12:29:15,589 - services.web_repo_monitor - INFO - No new commits found"
+    "2025-12-20 12:30:09,934 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)"
   ]
 }
