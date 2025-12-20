@@ -1,21 +1,21 @@
 {
-  "timestamp": "2025-12-20T15:24:01.367879+00:00",
+  "timestamp": "2025-12-20T15:25:01.454328+00:00",
   "webhook_server": {
     "online": true,
     "health": {
-      "last_heartbeat_seconds_ago": 61.8,
-      "last_heartbeat_timestamp": "2025-12-20T15:22:59.611212+00:00"
+      "last_heartbeat_seconds_ago": 60.1,
+      "last_heartbeat_timestamp": "2025-12-20T15:24:01.367879+00:00"
     },
     "pipeline_status": null,
     "error": null
   },
   "system": {
-    "uptime_seconds": 83032.65,
-    "cpu_percent": 2.8,
+    "uptime_seconds": 83092.73,
+    "cpu_percent": 5.5,
     "memory_percent": 9.8,
     "disk_percent": 19.8,
-    "disk_free_gb": 44.72170639038086,
-    "timestamp": "2025-12-20T10:24:01.368329"
+    "disk_free_gb": 44.72168731689453,
+    "timestamp": "2025-12-20T10:25:01.454778"
   },
   "activity": {
     "last_report": {
@@ -26,6 +26,18 @@
     "total_reports": 25
   },
   "recent_log": [
+    "2025-12-20 10:25:01,543 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-20 10:25:01,231 - services.git_monitor - INFO - No new commits found",
+    "2025-12-20 10:24:57,262 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-20 10:24:57,176 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-20 10:24:42,261 - services.git_monitor - INFO - No new commits found",
+    "2025-12-20 10:24:42,176 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-20 10:24:35,928 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-20 10:24:35,450 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-20 10:24:20,928 - services.git_monitor - INFO - No new commits found",
+    "2025-12-20 10:24:20,450 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-20 10:24:16,658 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-20 10:24:16,157 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
     "2025-12-20 10:24:01,657 - services.git_monitor - INFO - No new commits found",
     "2025-12-20 10:24:01,156 - services.web_repo_monitor - INFO - No new commits found",
     "2025-12-20 10:23:57,625 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
@@ -33,18 +45,6 @@
     "2025-12-20 10:23:42,625 - services.git_monitor - INFO - No new commits found",
     "2025-12-20 10:23:41,939 - services.web_repo_monitor - INFO - No new commits found",
     "2025-12-20 10:23:38,514 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-20 10:23:37,812 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-20 10:23:23,513 - services.git_monitor - INFO - No new commits found",
-    "2025-12-20 10:23:22,812 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-20 10:23:17,635 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-20 10:23:17,238 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-20 10:23:02,635 - services.git_monitor - INFO - No new commits found",
-    "2025-12-20 10:23:02,237 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-20 10:22:58,261 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-20 10:22:58,048 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-20 10:22:43,261 - services.git_monitor - INFO - No new commits found",
-    "2025-12-20 10:22:43,047 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-20 10:22:39,203 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-20 10:22:38,846 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)"
+    "2025-12-20 10:23:37,812 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)"
   ]
 }
