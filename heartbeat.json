@@ -1,18 +1,21 @@
 {
-  "timestamp": "2025-12-26T17:15:12.823536+00:00",
+  "timestamp": "2025-12-26T17:16:21.977994+00:00",
   "webhook_server": {
-    "online": false,
-    "health": null,
+    "online": true,
+    "health": {
+      "last_heartbeat_seconds_ago": 69.2,
+      "last_heartbeat_timestamp": "2025-12-26T17:15:12.823536+00:00"
+    },
     "pipeline_status": null,
-    "error": "Last heartbeat was 701.6 minutes ago (threshold: 3 minutes)"
+    "error": null
   },
   "system": {
-    "uptime_seconds": 63.05,
-    "cpu_percent": 25.2,
-    "memory_percent": 9.8,
+    "uptime_seconds": 132.21,
+    "cpu_percent": 3.0,
+    "memory_percent": 8.1,
     "disk_percent": 21.7,
-    "disk_free_gb": 43.63694763183594,
-    "timestamp": "2025-12-26T12:15:12.824037"
+    "disk_free_gb": 43.64444351196289,
+    "timestamp": "2025-12-26T12:16:21.978439"
   },
   "activity": {
     "last_report": {
