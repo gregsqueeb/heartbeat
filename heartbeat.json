@@ -1,18 +1,21 @@
 {
-  "timestamp": "2025-12-27T23:24:01.081223+00:00",
+  "timestamp": "2025-12-27T23:24:19.349538+00:00",
   "webhook_server": {
-    "online": false,
-    "health": null,
+    "online": true,
+    "health": {
+      "last_heartbeat_seconds_ago": 18.3,
+      "last_heartbeat_timestamp": "2025-12-27T23:24:01.081223+00:00"
+    },
     "pipeline_status": null,
-    "error": "Failed to parse heartbeat file: Expecting property name enclosed in double quotes: line 2 column 1 (char 2)"
+    "error": null
   },
   "system": {
-    "uptime_seconds": 347.6,
-    "cpu_percent": 0.8,
-    "memory_percent": 22.7,
+    "uptime_seconds": 365.86,
+    "cpu_percent": 0.3,
+    "memory_percent": 22.6,
     "disk_percent": 23.3,
-    "disk_free_gb": 42.77008819580078,
-    "timestamp": "2025-12-27T18:24:01.081838"
+    "disk_free_gb": 42.77007293701172,
+    "timestamp": "2025-12-27T18:24:19.350049"
   },
   "activity": {
     "last_report": {
