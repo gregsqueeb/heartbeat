@@ -1,50 +1,50 @@
 {
-  "timestamp": "2025-12-29T22:08:09.572257+00:00",
+  "timestamp": "2025-12-29T22:09:10.720020+00:00",
   "webhook_server": {
     "online": true,
     "health": {
-      "last_heartbeat_seconds_ago": 60.1,
-      "last_heartbeat_timestamp": "2025-12-29T22:07:09.498482+00:00"
+      "last_heartbeat_seconds_ago": 61.1,
+      "last_heartbeat_timestamp": "2025-12-29T22:08:09.572257+00:00"
     },
     "pipeline_status": null,
     "error": null
   },
   "system": {
-    "uptime_seconds": 79183.34,
-    "cpu_percent": 15.8,
-    "memory_percent": 31.4,
+    "uptime_seconds": 79244.49,
+    "cpu_percent": 4.0,
+    "memory_percent": 31.2,
     "disk_percent": 24.7,
-    "disk_free_gb": 42.007328033447266,
-    "timestamp": "2025-12-29T17:08:09.572981"
+    "disk_free_gb": 42.00726318359375,
+    "timestamp": "2025-12-29T17:09:10.720497"
   },
   "activity": {
     "last_report": {
-      "filename": "setup_failure_20251229_170802.html",
-      "timestamp": "2025-12-29T17:08:02.474006"
+      "filename": "setup_failure_20251229_170828.html",
+      "timestamp": "2025-12-29T17:08:28.441597"
     },
     "last_pipeline_run": null,
-    "total_reports": 55
+    "total_reports": 56
   },
   "recent_log": [
-    "2025-12-29 17:08:10,390 - services.gauge_setup_service - INFO - Waiting 3.0s for firmware to boot...",
-    "2025-12-29 17:08:10,185 - services.serial_service - INFO - Successfully connected to ESP32 at /dev/ttyUSB0",
-    "2025-12-29 17:08:10,185 - services.gauge_setup_service - INFO - Triggering ESP32 reset to boot SD uploader firmware...",
-    "2025-12-29 17:08:10,078 - services.serial_service - INFO - Found 1 potential ESP32 port(s): ['/dev/ttyUSB0']",
-    "2025-12-29 17:08:10,078 - services.serial_service - INFO - Auto-detected ESP32 port: /dev/ttyUSB0",
-    "2025-12-29 17:08:10,078 - services.serial_service - INFO - Connecting to ESP32 at /dev/ttyUSB0 (baud rate: 115200)...",
-    "2025-12-29 17:08:10,071 - services.serial_service - INFO - Scanning for ESP32 serial ports...",
-    "2025-12-29 17:08:10,070 - services.flash_service - INFO - \u2713 SD uploader flashed successfully",
-    "2025-12-29 17:08:09,290 - services.git_monitor - INFO - No new commits found",
-    "2025-12-29 17:08:05,329 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-29 17:07:50,329 - services.git_monitor - INFO - No new commits found",
-    "2025-12-29 17:07:46,150 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-29 17:07:40,915 - services.flash_service - INFO - Flashing SD uploader firmware...",
-    "2025-12-29 17:07:40,915 - services.flash_service - INFO - Running: /home/flock/esp32-testbench/venv/bin/pio run -t upload",
-    "2025-12-29 17:07:40,914 - services.flash_service - INFO - \u2713 SD uploader built successfully",
-    "2025-12-29 17:07:33,548 - services.flash_service - INFO - Using PlatformIO from venv: /home/flock/esp32-testbench/venv/bin/pio",
-    "2025-12-29 17:07:33,548 - services.flash_service - INFO - Running: /home/flock/esp32-testbench/venv/bin/pio run",
-    "2025-12-29 17:07:33,547 - services.gauge_setup_service - INFO - Flashing SD uploader from: sd_uploader",
-    "2025-12-29 17:07:33,547 - services.flash_service - INFO - Building SD uploader firmware from: sd_uploader",
-    "2025-12-29 17:07:33,540 - services.gauge_setup_service - INFO - "
+    "2025-12-29 17:09:10,487 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-29 17:09:06,718 - services.git_monitor - INFO - No new commits found",
+    "2025-12-29 17:09:06,615 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-29 17:09:02,788 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-29 17:08:51,615 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-29 17:08:47,788 - services.git_monitor - INFO - No new commits found",
+    "2025-12-29 17:08:47,617 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-29 17:08:43,902 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-29 17:08:32,617 - services.report_generator - INFO - Setup failure report published successfully",
+    "2025-12-29 17:08:32,616 - services.github_pages_publisher - INFO - Successfully published 1 report(s) to GitHub Pages",
+    "2025-12-29 17:08:32,616 - services.github_pages_publisher - INFO - Reports available at: https://gregsqueeb/gauge-test-results/",
+    "2025-12-29 17:08:31,282 - services.github_pages_publisher - INFO - Committed changes: Update test reports - 2025-12-29 17:08:31",
+    "2025-12-29 17:08:31,224 - services.github_pages_publisher - INFO - Created index.html with 56 reports",
+    "2025-12-29 17:08:31,199 - services.github_pages_publisher - INFO - Publishing 1 report(s) to GitHub Pages...",
+    "2025-12-29 17:08:31,198 - services.github_pages_publisher - INFO - Repository updated successfully",
+    "2025-12-29 17:08:28,901 - services.git_monitor - INFO - No new commits found",
+    "2025-12-29 17:08:28,444 - services.report_generator - INFO - Setup failure report saved: reports/setup_failure_20251229_170828.html",
+    "2025-12-29 17:08:28,444 - services.report_generator - INFO - Publishing setup failure report to GitHub Pages...",
+    "2025-12-29 17:08:28,444 - services.github_pages_publisher - INFO - Cloning/updating GitHub Pages repository: git@github.com:gregsqueeb/gauge-test-results.git",
+    "2025-12-29 17:08:28,444 - services.github_pages_publisher - INFO - Repository already exists at github_pages_repo, updating..."
   ]
 }
