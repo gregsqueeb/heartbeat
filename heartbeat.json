@@ -1,21 +1,21 @@
 {
-  "timestamp": "2025-12-29T22:09:10.720020+00:00",
+  "timestamp": "2025-12-29T22:10:22.826727+00:00",
   "webhook_server": {
     "online": true,
     "health": {
-      "last_heartbeat_seconds_ago": 61.1,
-      "last_heartbeat_timestamp": "2025-12-29T22:08:09.572257+00:00"
+      "last_heartbeat_seconds_ago": 72.1,
+      "last_heartbeat_timestamp": "2025-12-29T22:09:10.720020+00:00"
     },
     "pipeline_status": null,
     "error": null
   },
   "system": {
-    "uptime_seconds": 79244.49,
-    "cpu_percent": 4.0,
-    "memory_percent": 31.2,
+    "uptime_seconds": 79316.6,
+    "cpu_percent": 34.3,
+    "memory_percent": 32.0,
     "disk_percent": 24.7,
-    "disk_free_gb": 42.00726318359375,
-    "timestamp": "2025-12-29T17:09:10.720497"
+    "disk_free_gb": 42.0072135925293,
+    "timestamp": "2025-12-29T17:10:22.827266"
   },
   "activity": {
     "last_report": {
@@ -26,6 +26,16 @@
     "total_reports": 56
   },
   "recent_log": [
+    "2025-12-29 17:09:29,611 - services.web_repo_monitor - INFO - Polling loop stopped",
+    "2025-12-29 17:09:29,611 - services.web_repo_monitor - INFO - Polling stopped",
+    "2025-12-29 17:09:29,610 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-29 17:09:29,262 - services.web_repo_monitor - INFO - Stopping polling...",
+    "2025-12-29 17:09:29,261 - services.git_monitor - INFO - Polling stopped",
+    "2025-12-29 17:09:29,260 - services.git_monitor - INFO - Polling loop stopped",
+    "2025-12-29 17:09:29,258 - services.git_monitor - INFO - Stopping polling...",
+    "2025-12-29 17:09:25,841 - services.git_monitor - INFO - No new commits found",
+    "2025-12-29 17:09:25,487 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-29 17:09:21,719 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
     "2025-12-29 17:09:10,487 - services.web_repo_monitor - INFO - No new commits found",
     "2025-12-29 17:09:06,718 - services.git_monitor - INFO - No new commits found",
     "2025-12-29 17:09:06,615 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
@@ -35,16 +45,6 @@
     "2025-12-29 17:08:47,617 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
     "2025-12-29 17:08:43,902 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
     "2025-12-29 17:08:32,617 - services.report_generator - INFO - Setup failure report published successfully",
-    "2025-12-29 17:08:32,616 - services.github_pages_publisher - INFO - Successfully published 1 report(s) to GitHub Pages",
-    "2025-12-29 17:08:32,616 - services.github_pages_publisher - INFO - Reports available at: https://gregsqueeb/gauge-test-results/",
-    "2025-12-29 17:08:31,282 - services.github_pages_publisher - INFO - Committed changes: Update test reports - 2025-12-29 17:08:31",
-    "2025-12-29 17:08:31,224 - services.github_pages_publisher - INFO - Created index.html with 56 reports",
-    "2025-12-29 17:08:31,199 - services.github_pages_publisher - INFO - Publishing 1 report(s) to GitHub Pages...",
-    "2025-12-29 17:08:31,198 - services.github_pages_publisher - INFO - Repository updated successfully",
-    "2025-12-29 17:08:28,901 - services.git_monitor - INFO - No new commits found",
-    "2025-12-29 17:08:28,444 - services.report_generator - INFO - Setup failure report saved: reports/setup_failure_20251229_170828.html",
-    "2025-12-29 17:08:28,444 - services.report_generator - INFO - Publishing setup failure report to GitHub Pages...",
-    "2025-12-29 17:08:28,444 - services.github_pages_publisher - INFO - Cloning/updating GitHub Pages repository: git@github.com:gregsqueeb/gauge-test-results.git",
-    "2025-12-29 17:08:28,444 - services.github_pages_publisher - INFO - Repository already exists at github_pages_repo, updating..."
+    "2025-12-29 17:08:32,616 - services.github_pages_publisher - INFO - Successfully published 1 report(s) to GitHub Pages"
   ]
 }
