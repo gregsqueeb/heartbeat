@@ -1,21 +1,21 @@
 {
-  "timestamp": "2025-12-29T22:06:08.930346+00:00",
+  "timestamp": "2025-12-29T22:07:09.498482+00:00",
   "webhook_server": {
     "online": true,
     "health": {
-      "last_heartbeat_seconds_ago": 65.7,
-      "last_heartbeat_timestamp": "2025-12-29T22:05:03.270132+00:00"
+      "last_heartbeat_seconds_ago": 60.6,
+      "last_heartbeat_timestamp": "2025-12-29T22:06:08.930346+00:00"
     },
     "pipeline_status": null,
     "error": null
   },
   "system": {
-    "uptime_seconds": 79062.7,
-    "cpu_percent": 2.3,
+    "uptime_seconds": 79123.27,
+    "cpu_percent": 9.3,
     "memory_percent": 31.0,
     "disk_percent": 24.7,
-    "disk_free_gb": 42.003292083740234,
-    "timestamp": "2025-12-29T17:06:08.930837"
+    "disk_free_gb": 42.00745391845703,
+    "timestamp": "2025-12-29T17:07:09.498964"
   },
   "activity": {
     "last_report": {
@@ -26,25 +26,25 @@
     "total_reports": 54
   },
   "recent_log": [
-    "2025-12-21 23:43:21,111 - services.git_monitor - INFO - No new commits found",
-    "2025-12-21 23:43:20,072 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-21 23:43:16,944 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-21 23:43:15,892 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-21 23:43:01,943 - services.git_monitor - INFO - No new commits found",
-    "2025-12-21 23:43:00,892 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-21 23:42:57,768 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-21 23:42:56,690 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-21 23:42:42,768 - services.git_monitor - INFO - No new commits found",
-    "2025-12-21 23:42:41,689 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-21 23:42:38,924 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-21 23:42:37,715 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-21 23:42:23,924 - services.git_monitor - INFO - No new commits found",
-    "2025-12-21 23:42:22,715 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-21 23:42:19,588 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-21 23:42:18,380 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-21 23:42:04,588 - services.git_monitor - INFO - No new commits found",
-    "2025-12-21 23:42:03,380 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-21 23:42:00,262 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-21 23:41:59,418 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)"
+    "2025-12-29 17:07:08,329 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-29 17:07:08,010 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-29 17:06:53,328 - services.git_monitor - INFO - No new commits found",
+    "2025-12-29 17:06:53,010 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-29 17:06:49,325 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-29 17:06:48,871 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-29 17:06:34,324 - services.git_monitor - INFO - No new commits found",
+    "2025-12-29 17:06:33,871 - services.web_repo_monitor - INFO - No new commits found",
+    "2025-12-29 17:06:30,147 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
+    "2025-12-29 17:06:30,146 - services.web_repo_monitor - INFO - Starting polling loop (interval: 15s)",
+    "2025-12-29 17:06:30,146 - services.web_repo_monitor - INFO - Polling started",
+    "2025-12-29 17:06:30,145 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-29 17:06:30,144 - services.git_monitor - INFO - Starting polling loop (interval: 15s)",
+    "2025-12-29 17:06:30,144 - services.git_monitor - INFO - Polling started",
+    "2025-12-29 17:06:30,136 - services.web_repo_monitor - INFO - Repository updated successfully",
+    "2025-12-29 17:06:27,459 - services.web_repo_monitor - INFO - Repository already exists at web_repo, updating...",
+    "2025-12-29 17:06:27,458 - services.web_repo_monitor - INFO - Cloning/updating repository: https://github.com/gregsqueeb/Gauge-SD-Card.git (branch: test-suite-implementation)",
+    "2025-12-17 01:46:21,473 - root - INFO - Successfully restored to original network",
+    "2025-12-17 01:46:21,406 - root - INFO - Attempted to restore original WiFi network",
+    "2025-12-17 01:46:21,405 - services.wifi_network_manager - INFO - Successfully connected to Downton Greggy"
   ]
 }
