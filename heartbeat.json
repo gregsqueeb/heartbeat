@@ -1,29 +1,26 @@
 {
-  "timestamp": "2025-12-28T15:07:41.491361+00:00",
+  "timestamp": "2025-12-29T00:07:40.527500+00:00",
   "webhook_server": {
-    "online": true,
-    "health": {
-      "last_heartbeat_seconds_ago": 60.2,
-      "last_heartbeat_timestamp": "2025-12-28T15:06:41.322689+00:00"
-    },
+    "online": false,
+    "health": null,
     "pipeline_status": null,
-    "error": null
+    "error": "Last heartbeat was 540.0 minutes ago (threshold: 3 minutes)"
   },
   "system": {
-    "uptime_seconds": 957.23,
-    "cpu_percent": 0.5,
-    "memory_percent": 22.9,
-    "disk_percent": 23.6,
-    "disk_free_gb": 42.59532928466797,
-    "timestamp": "2025-12-28T10:07:41.491823"
+    "uptime_seconds": 2032.38,
+    "cpu_percent": 5.5,
+    "memory_percent": 22.3,
+    "disk_percent": 24.1,
+    "disk_free_gb": 42.322933197021484,
+    "timestamp": "2025-12-28T19:07:40.528028"
   },
   "activity": {
     "last_report": {
-      "filename": "report_20251228_143833.html",
-      "timestamp": "2025-12-28T09:38:40.827773"
+      "filename": "report_20251229_000649.html",
+      "timestamp": "2025-12-28T19:06:57.245567"
     },
     "last_pipeline_run": null,
-    "total_reports": 39
+    "total_reports": 43
   },
   "recent_log": [
     "2025-12-21 23:43:21,111 - services.git_monitor - INFO - No new commits found",
