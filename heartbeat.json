@@ -1,50 +1,50 @@
 {
-  "timestamp": "2025-12-29T22:07:09.498482+00:00",
+  "timestamp": "2025-12-29T22:08:09.572257+00:00",
   "webhook_server": {
     "online": true,
     "health": {
-      "last_heartbeat_seconds_ago": 60.6,
-      "last_heartbeat_timestamp": "2025-12-29T22:06:08.930346+00:00"
+      "last_heartbeat_seconds_ago": 60.1,
+      "last_heartbeat_timestamp": "2025-12-29T22:07:09.498482+00:00"
     },
     "pipeline_status": null,
     "error": null
   },
   "system": {
-    "uptime_seconds": 79123.27,
-    "cpu_percent": 9.3,
-    "memory_percent": 31.0,
+    "uptime_seconds": 79183.34,
+    "cpu_percent": 15.8,
+    "memory_percent": 31.4,
     "disk_percent": 24.7,
-    "disk_free_gb": 42.00745391845703,
-    "timestamp": "2025-12-29T17:07:09.498964"
+    "disk_free_gb": 42.007328033447266,
+    "timestamp": "2025-12-29T17:08:09.572981"
   },
   "activity": {
     "last_report": {
-      "filename": "setup_failure_20251229_165502.html",
-      "timestamp": "2025-12-29T16:55:02.270155"
+      "filename": "setup_failure_20251229_170802.html",
+      "timestamp": "2025-12-29T17:08:02.474006"
     },
     "last_pipeline_run": null,
-    "total_reports": 54
+    "total_reports": 55
   },
   "recent_log": [
-    "2025-12-29 17:07:08,329 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-29 17:07:08,010 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-29 17:06:53,328 - services.git_monitor - INFO - No new commits found",
-    "2025-12-29 17:06:53,010 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-29 17:06:49,325 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-29 17:06:48,871 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-29 17:06:34,324 - services.git_monitor - INFO - No new commits found",
-    "2025-12-29 17:06:33,871 - services.web_repo_monitor - INFO - No new commits found",
-    "2025-12-29 17:06:30,147 - services.web_repo_monitor - INFO - Checking web repository for new commits (interval: 15s)",
-    "2025-12-29 17:06:30,146 - services.web_repo_monitor - INFO - Starting polling loop (interval: 15s)",
-    "2025-12-29 17:06:30,146 - services.web_repo_monitor - INFO - Polling started",
-    "2025-12-29 17:06:30,145 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
-    "2025-12-29 17:06:30,144 - services.git_monitor - INFO - Starting polling loop (interval: 15s)",
-    "2025-12-29 17:06:30,144 - services.git_monitor - INFO - Polling started",
-    "2025-12-29 17:06:30,136 - services.web_repo_monitor - INFO - Repository updated successfully",
-    "2025-12-29 17:06:27,459 - services.web_repo_monitor - INFO - Repository already exists at web_repo, updating...",
-    "2025-12-29 17:06:27,458 - services.web_repo_monitor - INFO - Cloning/updating repository: https://github.com/gregsqueeb/Gauge-SD-Card.git (branch: test-suite-implementation)",
-    "2025-12-17 01:46:21,473 - root - INFO - Successfully restored to original network",
-    "2025-12-17 01:46:21,406 - root - INFO - Attempted to restore original WiFi network",
-    "2025-12-17 01:46:21,405 - services.wifi_network_manager - INFO - Successfully connected to Downton Greggy"
+    "2025-12-29 17:08:10,390 - services.gauge_setup_service - INFO - Waiting 3.0s for firmware to boot...",
+    "2025-12-29 17:08:10,185 - services.serial_service - INFO - Successfully connected to ESP32 at /dev/ttyUSB0",
+    "2025-12-29 17:08:10,185 - services.gauge_setup_service - INFO - Triggering ESP32 reset to boot SD uploader firmware...",
+    "2025-12-29 17:08:10,078 - services.serial_service - INFO - Found 1 potential ESP32 port(s): ['/dev/ttyUSB0']",
+    "2025-12-29 17:08:10,078 - services.serial_service - INFO - Auto-detected ESP32 port: /dev/ttyUSB0",
+    "2025-12-29 17:08:10,078 - services.serial_service - INFO - Connecting to ESP32 at /dev/ttyUSB0 (baud rate: 115200)...",
+    "2025-12-29 17:08:10,071 - services.serial_service - INFO - Scanning for ESP32 serial ports...",
+    "2025-12-29 17:08:10,070 - services.flash_service - INFO - \u2713 SD uploader flashed successfully",
+    "2025-12-29 17:08:09,290 - services.git_monitor - INFO - No new commits found",
+    "2025-12-29 17:08:05,329 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-29 17:07:50,329 - services.git_monitor - INFO - No new commits found",
+    "2025-12-29 17:07:46,150 - services.git_monitor - INFO - Checking repository for new commits (interval: 15s)",
+    "2025-12-29 17:07:40,915 - services.flash_service - INFO - Flashing SD uploader firmware...",
+    "2025-12-29 17:07:40,915 - services.flash_service - INFO - Running: /home/flock/esp32-testbench/venv/bin/pio run -t upload",
+    "2025-12-29 17:07:40,914 - services.flash_service - INFO - \u2713 SD uploader built successfully",
+    "2025-12-29 17:07:33,548 - services.flash_service - INFO - Using PlatformIO from venv: /home/flock/esp32-testbench/venv/bin/pio",
+    "2025-12-29 17:07:33,548 - services.flash_service - INFO - Running: /home/flock/esp32-testbench/venv/bin/pio run",
+    "2025-12-29 17:07:33,547 - services.gauge_setup_service - INFO - Flashing SD uploader from: sd_uploader",
+    "2025-12-29 17:07:33,547 - services.flash_service - INFO - Building SD uploader firmware from: sd_uploader",
+    "2025-12-29 17:07:33,540 - services.gauge_setup_service - INFO - "
   ]
 }
